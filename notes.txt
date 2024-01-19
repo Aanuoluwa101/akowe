@@ -1,0 +1,38 @@
+we'll be having a rules object and a person should be able to see the final set rules after setting them
+enforcements
+
+We'll start from the sermoners 
+
+
+service days are gonna be thesame for everybody. so they should be constructed at the begining for everyone
+and stored. 
+
+select month. Service schemas should be calculated and kept for the entire year
+Allowed services: weekdays only, wednesday only, friday only, sunday only...list
+Allowed officiation: Service, lesson, sermon....list
+enforce on particular days:  3rd January: First wednesday....list
+
+
+####### Second Approach
+pick any random service and fix the officiator
+putting into consideration the number of times they have been chosen and the rank
+
+######## Third Approach
+choose service conductors First
+
+total monthly slots
+number of officiators and number of officiations....how many each person gets depends on how many of that
+  particular officiation available and the number of officiators available for that officiation
+
+
+set month
+set rules while entering officiators
+
+
+wed only
+friday only
+all weekdays 
+sunday only
+sun and wed
+sun and fri
+all
