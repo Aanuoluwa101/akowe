@@ -1,0 +1,74 @@
+version: "3.7"
+
+services:
+  postabox-user-service:
+    container_name: postabox-usr-srv
+    image: registry.gitlab.com/postabox/postabox_be/user-service/test:latest
+    #restart: always
+    environment:
+      - DATABASE_URL=jdbc:postgresql://postabox-db:5432/postabox
+      - DATABASE_USER=postabox
+      - DATABASE_PASSWORD=postabox@123
+        #  ports:
+            #- 5151:5151
+            #- 587:587
+    depends_on:
+      - postabox-db
+    networks:
+      - medcarefind-user-service_caddy-net
+    volumes:
+      - ./media/profile/images:/opt/postabox/media/profile/images
+
+  postabox-mail-service:
+    container_name: postabox-mail-srv
+    image: registry.gitlab.com/postabox/postabox_be/mail-service/test:latest
+    #restart: always
+    environment:
+      - DATABASE_URL=jdbc:postgresql://postabox-db:5432/postabox
+      - DATABASE_USER=mailservice
+      - DATABASE_PASSWORD=mailservice@123
+        #  ports:
+            #- 5151:5151
+            #- 587:587
+    depends_on:
+      - postabox-db
+    networks:
+      - medcarefind-user-service_caddy-net
+
+  postabox-ai-service:
+    container_name: postabox-ai-srv
+    image: registry.gitlab.com/postabox/postabox_be/ai-service/test:latest
+    #restart: always
+    environment:
+      - DATABASE_URL=jdbc:postgresql://postabox-db:5432/postabox
+      - DATABASE_USER=postabox
+      - DATABASE_PASSWORD=postabox@123
+        #  ports:
+            #- 5151:5151
+            #- 587:587
+    depends_on:
+      - postabox-db
+    networks:
+      - medcarefind-user-service_caddy-net
+
+  postabox-db:
+    container_name: postabox-db
+    image: postgres:16-alpine
+    #restart: always
+    ports:
+      - 5433:5432
+    environment:
+      - POSTGRES_USER=postabox
+      - POSTGRES_PASSWORD=postabox@123
+      - POSTGRES_DB=postabox
+    volumes:
+      - postabox-pgdata:/var/lib/postgresql/data
+    networks:
+      - medcarefind-user-service_caddy-net
+
+volumes:
+  postabox-pgdata:
+
+networks:
+  medcarefind-user-service_caddy-net:
+    external: true

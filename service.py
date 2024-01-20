@@ -22,8 +22,10 @@ class Service:
         self.date = date
 
     def __str__(self) -> str:
-        return f"{self.type} service: conductor={self.conductor}, first={self.first_lesson_reader}, \
-second={self.second_lesson_reader}, preacher={self.preacher}"
+        return f"{self.type} service: conductor={self.conductor.name if self.conductor else self.conductor},\
+ first={self.first_lesson_reader.name if self.first_lesson_reader else self.first_lesson_reader}, \
+ second={self.second_lesson_reader.name if self.second_lesson_reader else self.second_lesson_reader}, \
+ preacher={self.preacher.name if self.preacher else self.preacher}"
 
 
 if __name__ == "__main__":

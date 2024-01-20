@@ -43,8 +43,8 @@ conductor4= Officiator(name="Joshua",
 #["Jerry", "Ayo", "Wisdom", "King", "Femi", "Ola", "Ini"]
 all = [conductor1, conductor2, conductor3, conductor4]
 conductors = [condcutor for condcutor in all if condcutor.can_conduct]
-readers = [reader for reader in all if reader.can_conduct]
-preachers = [preacher for preacher in all if preacher.can_conduct]
+readers = [reader for reader in all if reader.can_read]
+preachers = [preacher for preacher in all if preacher.can_preach]
 
     # conduct_weekday = []
     # conduct_all = []
