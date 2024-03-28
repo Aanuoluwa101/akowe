@@ -1,0 +1,163 @@
+{
+  "username": "John",
+  "email": "aanu@gmail.com",
+  "month": "April",
+  "year": "2024",
+  "roster": [
+    {
+      "date": "03-04-2024",
+      "day": "Wednesday",
+      "conductor": "Sup. Evang Akande Tosin",
+      "first_lesson": {
+        "lesson": "Romans 6:1-14",
+        "reader": "Sup. Evang Akande Tosin"
+      },
+      "second_lesson": null,
+      "preacher": "Sup. Evang Wonderful"
+    },
+    {
+      "date": "04-04-2024",
+      "day": "Thursday",
+      "conductor": "Sup. Evang Akande Tosin",
+      "first_lesson": {
+        "lesson": "Amos 8:1-10",
+        "reader": "Sup. Evang Wonderful"
+      },
+      "second_lesson": null,
+      "preacher": "Sup. Evang Akande Tosin"
+    },
+    {
+      "date": "05-04-2024",
+      "day": "Friday",
+      "conductor": "Sup. Evang Akande Tosin",
+      "first_lesson": {
+        "lesson": "Amos 8:10-14",
+        "reader": "Sup. Evang Akande Tosin"
+      },
+      "second_lesson": null,
+      "preacher": "Sup. Evang Wonderful"
+    },
+    {
+      "date": "07-04-2024",
+      "day": "Sunday",
+      "conductor": "Sup. Evang Akande Tosin",
+      "first_lesson": {
+        "lesson": "Micah 1:1-16",
+        "reader": "Sup. Evang Wonderful"
+      },
+      "second_lesson": {
+        "lesson": "Acts 17:1-14",
+        "reader": "Sup. Evang Akande Tosin"
+      },
+      "preacher": "Sup. Evang Wonderful"
+    },
+    {
+      "date": "10-04-2024",
+      "day": "Wednesday",
+      "conductor": "Sup. Evang Akande Tosin",
+      "first_lesson": {
+        "lesson": "Philippians 3:15-21",
+        "reader": "Sup. Evang Wonderful"
+      },
+      "second_lesson": null,
+      "preacher": "Sup. Evang Akande Tosin"
+    },
+    {
+      "date": "12-04-2024",
+      "day": "Friday",
+      "conductor": "Sup. Evang Akande Tosin",
+      "first_lesson": {
+        "lesson": "1 Thessalonians 2:13-16",
+        "reader": "Sup. Evang Wonderful"
+      },
+      "second_lesson": null,
+      "preacher": "Sup. Evang Akande Tosin"
+    },
+    {
+      "date": "14-04-2024",
+      "day": "Sunday",
+      "conductor": "Sup. Evang Akande Tosin",
+      "first_lesson": {
+        "lesson": "Joshua 11:1-15",
+        "reader": "Sup. Evang Akande Tosin"
+      },
+      "second_lesson": {
+        "lesson": "2 Corinthians 2:1-17",
+        "reader": "Sup. Evang Wonderful"
+      },
+      "preacher": "Sup. Evang Wonderful"
+    },
+    {
+      "date": "17-04-2024",
+      "day": "Wednesday",
+      "conductor": "Sup. Evang Akande Tosin",
+      "first_lesson": {
+        "lesson": "1 Chronicles 17:15-27",
+        "reader": "Sup. Evang Akande Tosin"
+      },
+      "second_lesson": null,
+      "preacher": "Sup. Evang Wonderful"
+    },
+    {
+      "date": "19-04-2024",
+      "day": "Friday",
+      "conductor": "Sup. Evang Akande Tosin",
+      "first_lesson": {
+        "lesson": "1 Thessalonians 1:4-10",
+        "reader": "Sup. Evang Wonderful"
+      },
+      "second_lesson": null,
+      "preacher": "Sup. Evang Wonderful"
+    },
+    {
+      "date": "21-04-2024",
+      "day": "Sunday",
+      "conductor": "Sup. Evang Wonderful",
+      "first_lesson": {
+        "lesson": "Isaiah 50:1-11",
+        "reader": "Sup. Evang Akande Tosin"
+      },
+      "second_lesson": {
+        "lesson": "Colossians 1:12-23",
+        "reader": "Sup. Evang Wonderful"
+      },
+      "preacher": "Sup. Evang Akande Tosin"
+    },
+    {
+      "date": "24-04-2024",
+      "day": "Wednesday",
+      "conductor": "Sup. Evang Akande Tosin",
+      "first_lesson": {
+        "lesson": "1 Chronicles 16:7-22",
+        "reader": "Sup. Evang Wonderful"
+      },
+      "second_lesson": null,
+      "preacher": "Sup. Evang Wonderful"
+    },
+    {
+      "date": "26-04-2024",
+      "day": "Friday",
+      "conductor": "Sup. Evang Akande Tosin",
+      "first_lesson": {
+        "lesson": "1 Chronicles 16:23-33",
+        "reader": "Sup. Evang Akande Tosin"
+      },
+      "second_lesson": null,
+      "preacher": "Sup. Evang Wonderful"
+    },
+    {
+      "date": "28-04-2024",
+      "day": "Sunday",
+      "conductor": "Sup. Evang Wonderful",
+      "first_lesson": {
+        "lesson": "Leviticus 3:1-17",
+        "reader": "Sup. Evang Akande Tosin"
+      },
+      "second_lesson": {
+        "lesson": "1 Corinthians 16:1-14",
+        "reader": "Sup. Evang Wonderful"
+      },
+      "preacher": "Sup. Evang Akande Tosin"
+    }
+  ]
+}

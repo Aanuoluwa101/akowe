@@ -1,0 +1,14 @@
+{
+  "ranks": [
+    {
+      "name": "Superior Evangelist",
+      "abbreviation": "Sup Evang",
+      "weight": 9
+    },
+    {
+      "name": "Senior Evangelist",
+      "abbreviation": "Snr. Evang",
+      "weight": 8
+    }
+  ]
+}
