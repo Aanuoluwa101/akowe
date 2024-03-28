@@ -31,7 +31,7 @@ class OfficiatorDto:
                                   "second_lesson_reader": {"weekday": 0, "sunday": 0},
                                   "preacher": {"weekday": 0, "sunday": 0}}
         
-        self.rank_and_name = f"{self.rank["short"]} {self.name}"
+        self.rank_and_name = f"{self.rank['short']} {self.name}"
 
         # self.enforcements = enforcements  #list of dictionaries (date, officiation)
         #max number will be global but when being used, len(enforcements) will be factored in
