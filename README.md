@@ -45,37 +45,37 @@ The base URL for all API routes is `https://akowe.onrender.com/api/v1`.
     "year": "2024",
     "bible_lesson_file": "bible_lessons_d.json",
     "officiators": [
-  {
-    "id": 5,
-    "name": "Akande Tosin",
-    "rank": {"name": "Sup Evang", "weight": 9, "short": "Sup. Evang"},
-    "can_conduct_on_weekdays": true,
-    "can_conduct_on_sundays": true,
-    "can_read_on_weekdays": true,
-    "can_read_on_sundays": true,
-    "can_preach_on_weekdays": true,
-    "can_preach_on_sundays": true,
-    "enforcements": [
-                 { 
-                   "date": "03-04-2024", 
-                   "service_type": "weekday", 
-                   "officiation": "first_lesson_reader"
-                 }
-            ]
-  },
-  {
-    "id": 6,
-    "name": "Wonderful",
-    "rank": {"name": "Sup Evang", "weight": 9, "short": "Sup. Evang"},
-    "can_conduct_on_weekdays": false,
-    "can_conduct_on_sundays": true,
-    "can_read_on_weekdays": true,
-    "can_read_on_sundays": true,
-    "can_preach_on_weekdays": true,
-    "can_preach_on_sundays": true,
-    "enforcements": []
-  }
-]
+            {
+              "id": 5,
+              "name": "Akande Tosin",
+              "rank": {"name": "Sup Evang", "weight": 9, "short": "Sup. Evang"},
+              "can_conduct_on_weekdays": true,
+              "can_conduct_on_sundays": true,
+              "can_read_on_weekdays": true,
+              "can_read_on_sundays": true,
+              "can_preach_on_weekdays": true,
+              "can_preach_on_sundays": true,
+              "enforcements": [
+                           { 
+                             "date": "03-04-2024", 
+                             "service_type": "weekday", 
+                             "officiation": "first_lesson_reader"
+                           }
+                      ]
+            },
+            {
+              "id": 6,
+              "name": "Wonderful",
+              "rank": {"name": "Sup Evang", "weight": 9, "short": "Sup. Evang"},
+              "can_conduct_on_weekdays": false,
+              "can_conduct_on_sundays": true,
+              "can_read_on_weekdays": true,
+              "can_read_on_sundays": true,
+              "can_preach_on_weekdays": true,
+              "can_preach_on_sundays": true,
+              "enforcements": []
+            }
+       ]
 }
  ```
 - **Notes on Request Body**
