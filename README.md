@@ -79,10 +79,10 @@ The base URL for all API routes is `https://akowe.onrender.com/api/v1`.
 }
  ```
 - **Notes on Request Body**
-   -- Enforcements can be more than one
-   -- temp_user will be entered on the UI as username and email as email
-   -- The month and year should be April and 2024 respectively but this should be shown to the user.
-   -- bible lesson file should be hardcoded as "bible_lessons_d.json"
+ - Enforcements can be more than one
+ - temp_user will be entered on the UI as username and email as email
+ - The month and year should be April and 2024 respectively but this should be shown to the user.
+ - bible lesson file should be hardcoded as "bible_lessons_d.json"
 - **Response Code:** 201 CREATED
 - **Response Body:**
 ```json
