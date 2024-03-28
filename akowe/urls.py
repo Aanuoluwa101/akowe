@@ -20,5 +20,5 @@ urlpatterns = [
     path(f"{API_VERSION}/rosters/", include("rosters.urls")),
     path(f"{API_VERSION}/rankings/", include("rankings.urls")),
     path(f"{API_VERSION}/auth/", include("accounts.urls")),
-    path(f"{API_VERSION}/test/", include("comments.urls"))
+    path(f"{API_VERSION}/comments/", include("comments.urls"))
 ]
