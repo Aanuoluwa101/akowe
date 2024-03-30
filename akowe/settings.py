@@ -20,7 +20,7 @@ SECRET_KEY = env("SECRET_KEY")
 DEBUG = False
 
 ALLOWED_HOSTS = ['*']
-
+CORS_ALLOWED_ORIGINS = ['*']
 
 # Application definition
 
