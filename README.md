@@ -251,10 +251,10 @@ The base URL for all API routes is `https://akowe.onrender.com/api/v1`.
 }
 ```
 - **Notes on Reponse Body**
- -- Consider each object in the roster array as a service
+   - Consider each object in the roster array as a service
 
 ### 3. Create a Comment
-- **Route:** `/test/comments`
+- **Route:** `/comments`
 - **Method:** POST
 - **Description:** Create a comment. Some input box on the UI where users are encouraged to comment on the app and suggest how it can be improved.
 - **Request Body:**
