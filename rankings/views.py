@@ -9,11 +9,16 @@ from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
 from django.contrib.auth import get_user_model
 from .models import Rank
+from rest_framework.decorators import api_view, permission_classes, authentication_classes 
+
 
 
 
 class RankingView(APIView):
     #permission_classes = [IsAuthenticated]
+
+    # @permission_classes([]) 
+    # @authentication_classes([])
     def get(self, request:Request):
         # #get a user's ranking
         # ranking_file = f"data/users/{request.user.id}/rankings/ranking.json"
@@ -88,3 +93,10 @@ class SuggestedRankingView(APIView):
 
            
 
+
+# @api_view(['GET']) 
+# @permission_classes([]) 
+# @authentication_classes([])
+# def example_view(request): 
+#     # Your view logic here return 
+#     Response({"message": "Hello, CORS is configured correctly!"}) 
