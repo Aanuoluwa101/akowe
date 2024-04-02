@@ -1,0 +1,53 @@
+{
+    "temp_user": "oludamola",
+    "email": "damola@gmail.com",
+    "month": "April",
+    "year": "2024",
+    "bible_lesson_file": "bible_lessons_d.json",
+    "officiators": [
+      {
+        "id": 731992,
+        "name": "Oludamola",
+        "rank": {
+          "name": "Brother",
+          "short": "Bro.",
+          "weight": 2
+        },
+        "can_conduct_on_weekdays": true,
+        "can_conduct_on_sundays": false,
+        "can_read_on_weekdays": true,
+        "can_read_on_sundays": false,
+        "can_preach_on_weekdays": true,
+        "can_preach_on_sundays": false,
+        "enforcements": [
+          {
+            "date": "07-04-2024",
+            "service_type": "sunday",
+            "officiation": "conductor"
+          }
+        ]
+      },
+      {
+        "id": 68570,
+        "name": "Olukunle",
+        "rank": {
+          "name": "Elder Brother",
+          "short": "Eld. Bro.",
+          "weight": 2
+        },
+        "can_conduct_on_weekdays": true,
+        "can_conduct_on_sundays": true,
+        "can_read_on_weekdays": true,
+        "can_read_on_sundays": true,
+        "can_preach_on_weekdays": true,
+        "can_preach_on_sundays": true,
+        "enforcements": [
+          {
+            "date": "14-04-2024",
+            "service_type": "sunday",
+            "officiation": "first_lesson_reader"
+          }
+        ]
+      }
+      ]
+  }

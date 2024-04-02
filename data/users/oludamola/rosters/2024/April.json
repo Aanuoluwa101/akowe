@@ -1,0 +1,163 @@
+{
+  "username": "oludamola",
+  "email": "damola@gmail.com",
+  "month": "April",
+  "year": "2024",
+  "roster": [
+    {
+      "date": "03-04-2024",
+      "day": "Wednesday",
+      "conductor": "Bro. Oludamola",
+      "first_lesson": {
+        "lesson": "Romans 6:1-14",
+        "reader": "Bro. Oludamola"
+      },
+      "second_lesson": null,
+      "preacher": "Eld. Bro. Olukunle"
+    },
+    {
+      "date": "04-04-2024",
+      "day": "Thursday",
+      "conductor": "Bro. Oludamola",
+      "first_lesson": {
+        "lesson": "Amos 8:1-10",
+        "reader": "Bro. Oludamola"
+      },
+      "second_lesson": null,
+      "preacher": "Eld. Bro. Olukunle"
+    },
+    {
+      "date": "05-04-2024",
+      "day": "Friday",
+      "conductor": "Eld. Bro. Olukunle",
+      "first_lesson": {
+        "lesson": "Amos 8:10-14",
+        "reader": "Bro. Oludamola"
+      },
+      "second_lesson": null,
+      "preacher": "Bro. Oludamola"
+    },
+    {
+      "date": "07-04-2024",
+      "day": "Sunday",
+      "conductor": "Bro. Oludamola",
+      "first_lesson": {
+        "lesson": "Micah 1:1-16",
+        "reader": "Bro. Oludamola"
+      },
+      "second_lesson": {
+        "lesson": "Acts 17:1-14",
+        "reader": "Bro. Oludamola"
+      },
+      "preacher": "Eld. Bro. Olukunle"
+    },
+    {
+      "date": "10-04-2024",
+      "day": "Wednesday",
+      "conductor": "Eld. Bro. Olukunle",
+      "first_lesson": {
+        "lesson": "Philippians 3:15-21",
+        "reader": "Bro. Oludamola"
+      },
+      "second_lesson": null,
+      "preacher": "Bro. Oludamola"
+    },
+    {
+      "date": "12-04-2024",
+      "day": "Friday",
+      "conductor": "Bro. Oludamola",
+      "first_lesson": {
+        "lesson": "1 Thessalonians 2:13-16",
+        "reader": "Bro. Oludamola"
+      },
+      "second_lesson": null,
+      "preacher": "Eld. Bro. Olukunle"
+    },
+    {
+      "date": "14-04-2024",
+      "day": "Sunday",
+      "conductor": "Eld. Bro. Olukunle",
+      "first_lesson": {
+        "lesson": "Joshua 11:1-15",
+        "reader": "Eld. Bro. Olukunle"
+      },
+      "second_lesson": {
+        "lesson": "2 Corinthians 2:1-17",
+        "reader": "Bro. Oludamola"
+      },
+      "preacher": "Eld. Bro. Olukunle"
+    },
+    {
+      "date": "17-04-2024",
+      "day": "Wednesday",
+      "conductor": "Eld. Bro. Olukunle",
+      "first_lesson": {
+        "lesson": "1 Chronicles 17:15-27",
+        "reader": "Eld. Bro. Olukunle"
+      },
+      "second_lesson": null,
+      "preacher": "Bro. Oludamola"
+    },
+    {
+      "date": "19-04-2024",
+      "day": "Friday",
+      "conductor": "Bro. Oludamola",
+      "first_lesson": {
+        "lesson": "1 Thessalonians 1:4-10",
+        "reader": "Eld. Bro. Olukunle"
+      },
+      "second_lesson": null,
+      "preacher": "Eld. Bro. Olukunle"
+    },
+    {
+      "date": "21-04-2024",
+      "day": "Sunday",
+      "conductor": "Eld. Bro. Olukunle",
+      "first_lesson": {
+        "lesson": "Isaiah 50:1-11",
+        "reader": "Bro. Oludamola"
+      },
+      "second_lesson": {
+        "lesson": "Colossians 1:12-23",
+        "reader": "Bro. Oludamola"
+      },
+      "preacher": "Eld. Bro. Olukunle"
+    },
+    {
+      "date": "24-04-2024",
+      "day": "Wednesday",
+      "conductor": "Eld. Bro. Olukunle",
+      "first_lesson": {
+        "lesson": "1 Chronicles 16:7-22",
+        "reader": "Eld. Bro. Olukunle"
+      },
+      "second_lesson": null,
+      "preacher": "Bro. Oludamola"
+    },
+    {
+      "date": "26-04-2024",
+      "day": "Friday",
+      "conductor": "Bro. Oludamola",
+      "first_lesson": {
+        "lesson": "1 Chronicles 16:23-33",
+        "reader": "Eld. Bro. Olukunle"
+      },
+      "second_lesson": null,
+      "preacher": "Eld. Bro. Olukunle"
+    },
+    {
+      "date": "28-04-2024",
+      "day": "Sunday",
+      "conductor": "Eld. Bro. Olukunle",
+      "first_lesson": {
+        "lesson": "Leviticus 3:1-17",
+        "reader": "Eld. Bro. Olukunle"
+      },
+      "second_lesson": {
+        "lesson": "1 Corinthians 16:1-14",
+        "reader": "Bro. Oludamola"
+      },
+      "preacher": "Eld. Bro. Olukunle"
+    }
+  ]
+}

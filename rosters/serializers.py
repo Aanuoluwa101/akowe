@@ -7,7 +7,7 @@ class OfficiatorRankSerializer(serializers.Serializer):
 
 
 class OfficiatorEnforcementSerializer(serializers.Serializer):
-    date = serializers.DateField()
+    date = serializers.DateField(input_formats=['%d-%m-%Y'])
     service_type = serializers.CharField()
     officiation = serializers.CharField()
 
