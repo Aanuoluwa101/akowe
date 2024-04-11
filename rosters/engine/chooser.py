@@ -88,7 +88,8 @@ class Chooser:
                 adhoc_pool = pool + buffer
                 officiator = self.recover(service, officiation_type, adhoc_pool)
                 if not officiator:
-                    print("couldn't get a replacement")
+                    print("couldn't get a replacement, picking anybody")
+                    officiator = random.choice(adhoc_pool)
                     #officiator = self.default
                 break
             else:
