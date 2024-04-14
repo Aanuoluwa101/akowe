@@ -21,7 +21,7 @@ class OfficiatorDtoSerializer(serializers.Serializer):
     can_conduct_on_sundays = serializers.BooleanField()
     can_read_on_sundays = serializers.BooleanField()
     can_preach_on_sundays = serializers.BooleanField()
-    enforcements = OfficiatorEnforcementSerializer(many=True)
+    enforcements = OfficiatorEnforcementSerializer(many=True, allow_null=True)
 
 class RosterDataSerializer(serializers.Serializer):
     #for TESTING

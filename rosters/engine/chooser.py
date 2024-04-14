@@ -166,13 +166,14 @@ class Chooser:
                     return service
     
         for officiator in officiators:
-             for enforcement in officiator.enforcements:
-                service = find_service(enforcement["date"])
-                if not service:
-                    raise ValueError("Service not found")
-                service.__setattr__(enforcement["officiation"], officiator)
+             if officiator.enforcements:
+                for enforcement in officiator.enforcements:
+                    service = find_service(enforcement["date"])
+                    if not service:
+                        raise ValueError("Service not found")
+                    service.__setattr__(enforcement["officiation"], officiator)
 
-                officiator.increment_officiation_count(enforcement["officiation"], enforcement["service_type"])
+                    officiator.increment_officiation_count(enforcement["officiation"], enforcement["service_type"])
 
     def choose(self):
         for service in self.services:
