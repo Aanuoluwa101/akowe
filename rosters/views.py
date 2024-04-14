@@ -37,6 +37,8 @@ class RosterView(APIView):
             # data["email"] 
 
             #return Response(data=data, status=status.HTTP_201_CREATED)  #for now
+            print("MAKING ROSTER")
+            print(data)
             roster_maker = RosterMaker()
             roster = roster_maker.make_roster(data)
             if roster: 
