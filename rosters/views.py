@@ -26,7 +26,7 @@ class RosterView(APIView):
     def post(self, request:Request):
         #in the frontend, make sure they can't enforce two people on thesame day and activity
         data = request.data
-        print(data)
+        print(json.dumps(data))
         serializer = RosterDataSerializer(data=request.data)
         if serializer.is_valid():
             #data["username"] = request.user.username
@@ -39,7 +39,7 @@ class RosterView(APIView):
 
             #return Response(data=data, status=status.HTTP_201_CREATED)  #for now
             print("MAKING ROSTER")
-            print(data)
+            #print(data)
             roster_maker = RosterMaker()
             roster = roster_maker.make_roster(data)
             if roster: 

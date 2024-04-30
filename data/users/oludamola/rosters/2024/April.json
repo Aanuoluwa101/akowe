@@ -7,10 +7,10 @@
     {
       "date": "03-04-2024",
       "day": "Wednesday",
-      "conductor": "Cape Eld. Bro. Ayodeji",
+      "conductor": "Bro. Olukunle",
       "first_lesson": {
         "lesson": "Romans 6:1-14",
-        "reader": "Cape Eld. Bro. Ayodeji"
+        "reader": "Eld. Bro. oludamola"
       },
       "second_lesson": null,
       "preacher": "Cape Eld. Bro. Ayodeji"
@@ -18,13 +18,13 @@
     {
       "date": "04-04-2024",
       "day": "Thursday",
-      "conductor": "Cape Eld. Bro. Ayodeji",
+      "conductor": "Bro. Olukunle",
       "first_lesson": {
         "lesson": "Amos 8:1-10",
-        "reader": "Eld. Bro. oludamola"
+        "reader": "Cape Eld. Bro. Ayodeji"
       },
       "second_lesson": null,
-      "preacher": "Cape Eld. Bro. Ayodeji"
+      "preacher": "Eld. Bro. oludamola"
     },
     {
       "date": "05-04-2024",
@@ -32,10 +32,10 @@
       "conductor": "Cape Eld. Bro. Ayodeji",
       "first_lesson": {
         "lesson": "Amos 8:10-14",
-        "reader": "Bro. Olukunle"
+        "reader": "Eld. Bro. oludamola"
       },
       "second_lesson": null,
-      "preacher": "Eld. Bro. oludamola"
+      "preacher": "Cape Eld. Bro. Ayodeji"
     },
     {
       "date": "07-04-2024",
@@ -54,36 +54,36 @@
     {
       "date": "10-04-2024",
       "day": "Wednesday",
-      "conductor": "Eld. Bro. oludamola",
+      "conductor": "Bro. Olukunle",
       "first_lesson": {
         "lesson": "Philippians 3:15-21",
         "reader": "Eld. Bro. oludamola"
       },
       "second_lesson": null,
-      "preacher": "Cape Eld. Bro. Ayodeji"
+      "preacher": "Eld. Bro. oludamola"
     },
     {
       "date": "12-04-2024",
       "day": "Friday",
-      "conductor": "Bro. Olukunle",
+      "conductor": "Eld. Bro. oludamola",
       "first_lesson": {
         "lesson": "1 Thessalonians 2:13-16",
-        "reader": "Eld. Bro. oludamola"
+        "reader": "Cape Eld. Bro. Ayodeji"
       },
       "second_lesson": null,
-      "preacher": "Cape Eld. Bro. Ayodeji"
+      "preacher": "Bro. Olukunle"
     },
     {
       "date": "14-04-2024",
       "day": "Sunday",
-      "conductor": "Sup. Snr. Eld. Bro. Adeniran",
+      "conductor": "Full Eld. Bro. Adedoyin",
       "first_lesson": {
         "lesson": "Joshua 11:1-15",
-        "reader": "Full Eld. Bro. Adedoyin"
+        "reader": "Sup. Snr. Eld. Bro. Adeniran"
       },
       "second_lesson": {
         "lesson": "2 Corinthians 2:1-17",
-        "reader": "Sup. Snr. Eld. Bro. Adeniran"
+        "reader": "Full Eld. Bro. Adedoyin"
       },
       "preacher": "Sup. Snr. Eld. Bro. Adeniran"
     },
@@ -107,26 +107,26 @@
         "reader": "Cape Eld. Bro. Ayodeji"
       },
       "second_lesson": null,
-      "preacher": "Bro. Olukunle"
+      "preacher": "Eld. Bro. oludamola"
     },
     {
       "date": "21-04-2024",
       "day": "Sunday",
-      "conductor": "Full Eld. Bro. Adedoyin",
+      "conductor": "Sup. Snr. Eld. Bro. Adeniran",
       "first_lesson": {
         "lesson": "Isaiah 50:1-11",
-        "reader": "Sup. Snr. Eld. Bro. Adeniran"
+        "reader": "Full Eld. Bro. Adedoyin"
       },
       "second_lesson": {
         "lesson": "Colossians 1:12-23",
-        "reader": "Full Eld. Bro. Adedoyin"
+        "reader": "Sup. Snr. Eld. Bro. Adeniran"
       },
       "preacher": "Sup. Snr. Eld. Bro. Adeniran"
     },
     {
       "date": "24-04-2024",
       "day": "Wednesday",
-      "conductor": "Bro. Olukunle",
+      "conductor": "Cape Eld. Bro. Ayodeji",
       "first_lesson": {
         "lesson": "1 Chronicles 16:7-22",
         "reader": "Eld. Bro. oludamola"
@@ -137,10 +137,10 @@
     {
       "date": "26-04-2024",
       "day": "Friday",
-      "conductor": "Bro. Olukunle",
+      "conductor": "Cape Eld. Bro. Ayodeji",
       "first_lesson": {
         "lesson": "1 Chronicles 16:23-33",
-        "reader": "Cape Eld. Bro. Ayodeji"
+        "reader": "Bro. Olukunle"
       },
       "second_lesson": null,
       "preacher": "Cape Eld. Bro. Ayodeji"
