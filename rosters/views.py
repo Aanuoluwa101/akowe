@@ -26,6 +26,7 @@ class RosterView(APIView):
     def post(self, request:Request):
         #in the frontend, make sure they can't enforce two people on thesame day and activity
         data = request.data
+        print(data)
         serializer = RosterDataSerializer(data=request.data)
         if serializer.is_valid():
             #data["username"] = request.user.username
