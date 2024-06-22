@@ -41,10 +41,15 @@ def make_year(year):
 if __name__ == "__main__":
     #make_year(2024)
     year = 2024
-    month = "April"
-    month_idx = 4
+    month = "July"
+    month_idx = 7
     service_days = month_service_days(year, month_idx)
-    file_path = f"./years/{year}/{month}/services.json"
+    dir_path = f"./years/{year}/{month}"
+
+    if not os.path.exists(dir_path):
+        os.makedirs(dir_path)
+    
+    file_path = f"{dir_path}/services.json"
     with open(file_path, "w") as jfile:
         json.dump(service_days, jfile, indent=2)
 

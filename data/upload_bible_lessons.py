@@ -26,4 +26,4 @@ def upload_bible_lessons(year, month, lesson_csv_file, type):
 
 
 if __name__ == "__main__":
-    upload_bible_lessons("2024", "April", "./April_2024_Bible_Lessons - Sheet1.csv", "d")
+    upload_bible_lessons("2024", "July", "./July_2024_Bible_Lessons - Sheet1.csv", "d")
