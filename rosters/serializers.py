@@ -52,3 +52,6 @@ class RosterSerializer(serializers.Serializer):
     month = serializers.CharField()
     year = serializers.CharField()
     roster = ServiceSerializer(many=True)
+
+class FileUploadSerializer(serializers.Serializer):
+    roster = serializers.FileField()
