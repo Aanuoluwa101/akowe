@@ -109,7 +109,7 @@ class RosterConvertView(APIView):
                 }, from_format='html')
 
                 # Save converted file
-                output_file_name = f'{base_name}.doc'
+                output_file_name = f'{base_name}.docx'
                 result.save_files(output_file_name)
                 
                 #Return converted file
